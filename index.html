@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>傘</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Klee+One&family=Noto+Sans+JP:wght@100..900&family=Shippori+Mincho&family=Zen+Maru+Gothic&display=swap"
+        rel="stylesheet">
+    <div id="wrap">
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="logo">
+                        <img src="images/logo-1.png" alt="雨のちエコ">
+                    </div>
+                </div>
+            </div>
+        </header>
+</body>
+
+<main>
+    <section class="section1">
+        <div class="container">
+            <p style="text-align: left">その傘、<br>リサイクルしませんか</p>
+        </div>
+    </section>
+
+    <nav>
+        <ul>
+            <li><a href="#use">使い方</a></li>
+            <li><a href="#future">エコな未来に向けて</a></li>
+            <li><a href="#answer">お問い合わせ</a></li>
+        </ul>
+    </nav>
+
+    <section id="contents">
+        <biv class="explain">
+            <p class="text">
+                福岡空港には、年間約400本もの傘が捨てられている<br>
+                飛行機に乗るときに邪魔だったり<br>
+                ”また買えば良い”という思いからビニール傘に対して価値を感じていない<br>
+                <br>
+                <span style="color:black;">まだ使えるけど捨てられた傘</span>にフォーカスを当て<br>
+                ビニール傘をリサイクルすることで新たに傘を購入する必要もなくなり<br>
+                自分のため、そして社会のために<br>
+                こうした循環が、よりエコな未来の実現へとつながる
+            </p>
+        </biv>
+    </section>
+
+    <section>
+        <a id="use"></a>
+        <h2 style="text-align:center"><span style="color:#202020;">雨のちエコの使い方</h2>
+    </section>
+    <!--<div style="background-color: #f0ffff; border: 10px double #87ceeb;  padding: 5px;"><img src="images/um-explain-1.png" alt=""></div>-->
+    <!--<div style="background: #f0ffff; box-shadow: #f0ffff 0 0 10px 10px; margin:10px;  padding: 20px;">-->
+
+    <div id="cards">
+        <div class="card">
+            <div class="picture"><img src="images/huyou-1.png" alt="" /></div>
+            <div class="description">
+
+                <p class="dai">不要なビニール傘</p>
+                <p class="tyu">ステッカーを貼って傘立てにお入れください</p>
+                <p class="sho">まだ使えるけど不要になったビニール傘をリサイクルします<br>傘を必要とする人に役立てられます</p>
+
+            </div>
+        </div>
+
+        <div class="card" id="card-center">
+            <div class="picture"><img src="images/kariru-1.png" alt="" /></div>
+            <div class="description">
+                <p class="dai">傘が必要</p>
+                <p class="tyu">好みの傘を選んでご利用ください</p>
+                <p class="sho">急な雨による傘の出費を減らすことができます<br>また空港を利用する際にリサイクルすることで<br>エコな循環が広がります</p>
+            </div>
+        </div>
+    </div>
+
+
+    <section>
+        <a id="future"></a>
+        <h2 style="text-align:center"><span style="color:#202020;">エコな未来に向けて</h2>
+    </section>
+
+    <div style="background: #f0f8ff; box-shadow: #f0f8ff 0 0 10px 10px; margin:10px; font-size: 100%; padding: 60px;">
+    <div class="image-container">
+        <img src="images/eko_f-1.png" alt="">
+        <img src="images/eko_f-2.png" alt="">
+        <img src="images/eko_f-3.png" alt="">
+    </div>
+    </div>
+
+    <p class="tyu">折り畳み傘の常備</p>
+    <p class="tyu">お気に入りの傘を見つける</p>
+
+    <section>
+        <a id="answer"></a>
+        <h2 style="text-align:center"><span style="color:#202020;">お問い合わせ</h2>
+    </section>
+   <div style="background-color: #f5f5f5; border-radius: 5px; border: 1px dashed #687993; padding: 20px;">
+        <form action="your-server-side-script.php" method="POST">
+            <div class="form-row">
+                <div class="form-label">
+                    <label for="name">お名前</label>
+                    <span>必須</span>
+                </div>
+                <input type="text" id="name" name="name" placeholder="例) 福岡 太朗" required>
+            </div>
+            <div class="form-row">
+                <div class="form-label">
+                    <label for="email">メールアドレス:</label>
+                    <span>必須</span>
+                </div>
+                <input type="email" id="email" name="email" placeholder="例) abcd@xyz.com" required>
+            </div>
+            <div class="form-row">
+                <div class="form-label">
+                    <label for="pet-select">お問い合わせ内容</label>
+                </div>
+                <select name="animal" id="pet-select">
+                    <option value="">--選択してください--</option>
+                    <option value="dog">このサイトについて</option>
+                    <option value="cat">傘について</option>
+                    <option value="mouse">その他</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <div class="form-label">
+                    <label for="message">詳細</label>
+                    <span>必須</span>
+                </div>
+                <textarea id="message" name="message" rows="3" placeholder="お問い合わせ内容をこちらにご記入ください" required></textarea>
+            </div>
+            <div class="form-row">
+                <div class="form-label"></div>
+                <button type="submit">送信</button>
+            </div>
+    </div>
+    </form>
+
+    <!-- Left contact page -->
+
+    <div class="direct-contact-container">
+</main>
+
+<footer>
+    <p>© 雨のちエコ </p>
+    <a href="#" id="page-top">TOP</a>
+</footer>
+</div>
+</body>
+
+</html>
